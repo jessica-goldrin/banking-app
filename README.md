@@ -14,7 +14,9 @@ A simple Spring Boot REST API for managing user accounts and transactions betwee
 ## How to Run
 1. Clone the repository
 2. Build and run the project:
+    
     `mvn spring-boot:run`
+    
     You'll know it's ready when you see `Started BankingApplication in X seconds` in the terminal
 
 3. API will be available at `http://localhost:8080`
