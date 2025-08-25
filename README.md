@@ -14,9 +14,8 @@ A simple Spring Boot REST API for managing user accounts and transactions betwee
 ## How to Run
 1. Clone the repository
 2. Build and run the project:
-   `mvn spring-boot:run`
-
-   You'll know it's ready when you see `Started BankingApplication in X seconds` in the terminal.
+    `mvn spring-boot:run`
+    You'll know it's ready when you see `Started BankingApplication in X seconds` in the terminal
 
 3. API will be available at `http://localhost:8080`
 
@@ -43,7 +42,7 @@ Send POST request to `http://localhost:8080/accounts/transfer` with JSON body:
 }
 ```
 
-(make sure you have created at least two accounts before this)
+Make sure both accounts exist before you do this.
 
 3. Get transaction history
 
